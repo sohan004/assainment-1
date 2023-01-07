@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style start */
+header {
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: right;
+}
+
+.banner-item {
+    text-align: right;
+    margin-right: 250px;
+    margin-top: 15rem;
+}
+
+.banner-h {
+    font-weight: 800;
+    font-size: 65px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.banner-p {
+    color: white;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.banner-btn {
+    border: none;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 11px;
+    border-radius: 8px;
+    background-color: white;
+    color: #005FAC;
+}
+
+/* header style end */
+/* section 1 style start */
+.section-1 {
+    display: flex;
+    gap: 90px;
+    margin: 130px 206px;
+}
+
+.section-1-item {
+    margin-top: 14rem;
+}
+
+.section-1-h {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.section-1-p {
+    color: #444343;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.section-1-li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.li-icon {
+    font-size: 18px;
+    color: #16D887;
+    /* section 1 end */
+    /* section 2 style start */
+}
+
+.section-2 {
+    text-align: center;
+    margin-bottom: 300px;
+
+}
+
+.section-2-head {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.section-2-item {
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+}
+
+.section-2-h {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 16px 0 10px 0;
+}
+
+.section-2-h2 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* section 2 end */
+/* bonus section style start */
+.bonus {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.bonus-list {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.bonus-item {
+
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+}
+
+.bonus-div1 {
+    background-color: #009578;
+    text-align: center;
+    padding: 20px 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.bonus-h {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.bonus-p {
+    color: white;
+}
+
+.bonus-div2 {
+    border-bottom: 10px solid #009578;
+}
+
+.bonus-ul {
+    padding: 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #737272;
+}
+
+.bonus-li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.bonus-h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.bonus-btn {
+    margin-top: 40px;
+    height: 47px;
+    padding: 1px 15px;
+    font-size: 23px;
+    border: 2px solid #009578;
+    color: #009578;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.bonus-dollar {
+    background: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+/* bonus section style end */
+/* section 3 style strart */
+.section-3{
+    display: flex;
+    justify-content: center;
+    margin: 130px 0;
+}
+.section-3-item{
+    background-image:linear-gradient(to right, rgba(8, 77, 156, 0.959) , rgba(0, 119, 255, 0.034)), url(./images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1140px;
+}
+.section-3-h{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 25px;
+    color: white;
+    margin-left: 3rem;
+}
+.section-3-btn {
+    border: none;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 11px;
+    border-radius: 8px;
+    background-color: white;
+    color: #005FAC;
+    margin-left: 3rem;
+}
+/* section 3 style end */
+/* footer style start */
+.footer{
+display: flex;
+padding: 130px 230px;
+gap: 330px;
+background-color: #151414;
+}
+.footer-h{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 16px;
+}
+.footer-p{
+    color: white;
+    line-height: 26px;
+    margin-bottom: 23px;
+}
+.footer-p2{
+    color: white;
+    line-height: 41px
+}
+.footer-email{
+    font-size: 18px;
+    padding: 14px;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 25px;
+
+}
+.footer-btn{
+    border: none;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 11px;
+    border-radius: 5px;
+    background-color: #005FAC;
+    color: white;
+}
+.footer-icon{
+    margin-top: 35px;
+    margin-right: 15px;
+}
+/* footer style end */
